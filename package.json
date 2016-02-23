@@ -1,0 +1,29 @@
+{
+  "name": "TextRPG",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www",
+    "build": "babel scripts -d scripts; webpack"
+  },
+  "dependencies": {
+    "babel-core": "latest",
+    "babel-loader": "latest",
+    "babel-eslint": "latest",
+    "babel-preset-es2015": "latest",
+    "babel-cli": "latest",
+    "body-parser": "latest",
+    "ejs": "latest",
+    "jscs": "latest",
+    "eslint": "latest",
+    "express": "latest",
+    "sendgrid": "latest",
+    "webpack": "latest"
+  },
+  "devDependencies": {
+    "babel-eslint": "^5.0.0-beta10",
+    "babel-loader": "~6.2.3",
+    "babel-core": "~6.5.2",
+    "babel-cli": "~6.5.1"
+  }
+}

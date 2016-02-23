@@ -1,0 +1,78 @@
+{
+  "title":"Shia Labeouf",
+  "scene":[
+    {
+      "number":0,
+      "console":"You're walking in the woods. There's no one around, And your phone is dead. Out of the corner of your eye you spot him, Shia LaBeouf. He's following you About 30 feet back. He gets down on all fours and breaks into a sprint. He's gaining on you.",
+      "option":[
+        {"text":"run", "action":1}
+      ]
+    },
+    {
+      "number":1,
+      "console":"You're looking for your car, But you're all turned around. He's almost upon you now And you can see there's blood on his face! My god, there's blood everywhere! Running for your life (From Shia LaBeouf.) He's brandishing a knife. (It's Shia LaBeouf.) Lurking in the shadows Hollywood superstar Shia LaBeouf. Living in the woods, (Shia LaBeouf.) Killing for sport, (Shia LaBeouf.) Eating all the bodies Actual, cannibal Shia LaBeouf.",
+      "option":[
+        {"text":"continue running", "action":2},
+        {"text":"look back", "action":3}
+      ]
+    },
+    {
+      "number":2,
+      "console":"You continue running and run straight past a cabin with its light on, as you run blindly through the dark woods you eventually run off of a cliff and plummet do your death. YOU DIED :(",
+      "option":[]
+    },
+    {
+      "number":3,
+      "console":"Now it's dark and you seem to have lost him, But you're hopelessly lost yourself. Stranded with a murderer, You creep silently through the underbrush. A-ha! In the distance, A small cottage with a light on. Hope!",
+      "option":[
+        {"text":"move stealthily toward it", "action":4},
+        {"text":"go back the way you came", "action":5}
+      ]
+    },
+    {
+      "number":4,
+      "console":"You move stealthily toward it, But your leg! Ah! It's caught in a bear trap!",
+      "option":[
+        {"text":"wait", "action":6},
+        {"text":"gnaw off your leg", "action":7},
+        {"text":"continue walking", "action":8}
+      ]
+    },
+    {
+      "number":5,
+      "console":"You turn around and leave the woods. You get to your car and drive away. YOU ARE REALLY BORING :(",
+      "option":[]
+    },
+    {
+      "number":6,
+      "console":"You fall asleep and freeze during the night. YOU DIED :(",
+      "option":[]
+    },
+    {
+      "number":7,
+      "console":"Gnawing off your leg, (Quiet, quiet.)",
+      "option":[
+        {"text":"limp toward the cottage", "action":9},
+        {"text":"give up", "action":10}
+      ]
+    },
+    {
+      "number":8,
+      "console":"You pull the chain on the bear trap out of the ground and continue walking. However the bear trap makes a loud noise, this attracts Shia to you and he kills and eats you. YOU DIED :(",
+      "option":[]
+    },
+    {
+      "number":9,
+      "console":"You lay there and bleed out to death. YOU DIED :(",
+      "option":[]
+    },
+    {
+      "number":10,
+      "console":"Limping toward the cottage, (Quiet, quiet.) Now you're on the doorstep, Sitting inside, Shia LaBeouf. Sharpening an ax, (Shia LaBeouf.)",
+      "option":[
+        {"text":"enter the cottage", "action":11},
+        {"text":"run away", "action":12}
+      ]
+    }
+  ]
+}

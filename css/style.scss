@@ -1,0 +1,57 @@
+body {
+  color: white;
+  font-family: monospace;
+  background: url("../images/forest.jpg") no-repeat center center fixed;
+  background-size: cover;
+}
+#content {
+  position: fixed;
+  top: 20%;
+  right: 25%;
+  bottom: 20%;
+  left: 25%;
+  background:rgba(0,0,0,0.75);
+}
+#title {
+  //position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  font-size: 7.5vh;
+  text-align: center;
+  font-family: Arial;
+}
+#console {
+  position: absolute;
+  padding: 5px;
+  top: 10vh;
+  right: 10%;
+  bottom: 4rem;
+  left: 10%;
+  background: rgba(0, 0, 0, .75);
+}
+#button-container {
+  position: absolute;
+  display: flex;
+  justify-content: space-around;
+  left: 10%;
+  bottom: 10px;
+  right: 10%;
+}
+.button {
+  font-family: Arial;
+  color: rgba(0, 0, 0, .75);
+  font-size: 20px;
+  background: rgba(255, 255, 255, .5);;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  border:none;
+}
+.button:hover {
+  background: rgba(255, 255, 255, .25);
+  text-decoration: none;
+}
+
+p {
+  margin-top: 0;
+}
