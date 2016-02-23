@@ -63,15 +63,35 @@
     },
     {
       "number":9,
-      "console":"You lay there and bleed out to death. YOU DIED :(",
-      "option":[]
-    },
-    {
-      "number":10,
       "console":"Limping toward the cottage, (Quiet, quiet.) Now you're on the doorstep, Sitting inside, Shia LaBeouf. Sharpening an ax, (Shia LaBeouf.)",
       "option":[
         {"text":"enter the cottage", "action":11},
         {"text":"run away", "action":12}
+      ]
+    },
+    {
+      "number":10,
+      "console":"You lay there and bleed out to death. YOU DIED :(",
+      "option":[]
+    },
+    {
+      "number":11,
+      "console":"But he doesn't hear you enter, (Shia LaBeouf).",
+      "option":[
+        {"text":"sneak up behind him", "action":13},
+        {"text":"take his gun", "action":14}
+      ]
+    },
+    {
+      "number":12,
+      "console":"As you cowardly run away a twig snaps. Shia's axe flys through the air and embeds itself in your skull. YOU DIED :(",
+      "option":[]
+    },
+    {
+      "number":13,
+      "console":"You're sneaking up behind him. Strangling superstar Shia LaBeouf. Fighting for your life with Shia LaBeouf, Wrestling a knife from Shia LaBeouf,",
+      "option":[
+        {"text":"stab it in his kidney", "action":15}
       ]
     }
   ]
