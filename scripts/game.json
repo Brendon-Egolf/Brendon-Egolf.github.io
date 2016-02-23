@@ -50,7 +50,7 @@
     },
     {
       "number":7,
-      "console":"Gnawing off your leg, (Quiet, quiet.)",
+      "console":"Gnawing off your leg, (Quiet, quiet).",
       "option":[
         {"text":"limp toward the cottage", "action":9},
         {"text":"give up", "action":10}
@@ -63,7 +63,7 @@
     },
     {
       "number":9,
-      "console":"Limping toward the cottage, (Quiet, quiet.) Now you're on the doorstep, Sitting inside, Shia LaBeouf. Sharpening an ax, (Shia LaBeouf.)",
+      "console":"Limping toward the cottage, (Quiet, quiet.) Now you're on the doorstep, Sitting inside, Shia LaBeouf. Sharpening an ax, (Shia LaBeouf).",
       "option":[
         {"text":"enter the cottage", "action":11},
         {"text":"run away", "action":12}
@@ -89,10 +89,34 @@
     },
     {
       "number":13,
-      "console":"You're sneaking up behind him. Strangling superstar Shia LaBeouf. Fighting for your life with Shia LaBeouf, Wrestling a knife from Shia LaBeouf,",
+      "console":"You're sneaking up behind him. Strangling superstar Shia LaBeouf. Fighting for your life with Shia LaBeouf, Wrestling a knife from Shia LaBeouf.",
       "option":[
         {"text":"stab it in his kidney", "action":15}
       ]
+    },
+    {
+      "number":14,
+      "console":"You commit suicide with his gun. LIFE IS HARD :(",
+      "option":[]
+    },
+    {
+      "number":15,
+      "console":"Safe at last from Shia LaBeouf. You limp into the dark woods, Blood oozing from your stump leg. But you have won. You have beaten Shia LaBeouf.",
+      "option":[
+        {"text":"limp back to your car", "action":16}
+      ]
+    },
+    {
+      "number":16,
+      "console":"Wait! He isn't dead! Shia Surprise! There's a gun to your head, and death in his eyes. But you can do Jiu Jitsu.",
+      "option":[
+        {"text":"body slam superstar Shia Labeouf", "action":17}
+      ]
+    },
+    {
+      "number":17,
+      "console":"Legendary fight with Shia LaBeouf Normal Tuesday night for Shia LaBeouf You try to swing an axe at Shia LaBeouf But blood is draining fast from your stump leg He's dodging every swipe, he parries to the left You counter to the right, you catch him in the neck You're chopping off his head now You have just decapitated Shia LaBeouf His head topples to the floor, expressionless You fall to your knees and catch your breath YOU'RE FINALLY SAFE FROM SHIA LABEOUF.",
+      "option":[]
     }
   ]
 }
