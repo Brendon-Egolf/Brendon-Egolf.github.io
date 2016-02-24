@@ -3,8 +3,6 @@
  *  CREATED: 02.21.2016
  */
 
-import {Game} from './Game.js';
-
 "use strict";
 
 
